@@ -1,0 +1,14 @@
+header {
+    height: 48px;
+    background-color: #000;
+    border-bottom: 2px solid var(--gold);
+}
+
+#header-logo {
+    height: 95%;
+    margin: auto 0;
+}
+
+#header-image {
+    height: 100%;
+}
