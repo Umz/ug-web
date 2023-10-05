@@ -1,3 +1,7 @@
+footer {
+    padding: 0 20px;
+}
+
 footer p {
     font-size: .8rem;
     font-family: sans-serif;
