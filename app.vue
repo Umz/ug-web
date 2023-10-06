@@ -3,9 +3,6 @@
     <head>
       <title>Umz Games : Nuxt Web</title>>
     </head>
-    <Header />
-    <NuxtPage />
-    <Footer />
   </div>
 </template>
 

@@ -1,13 +1,13 @@
 header {
     display: flex;
-    height: 48px;
+    height: 60px;
     padding: 0 20px;
     background-color: #000;
     border-top: 1px solid var(--gold);
 }
 
 #header-logo {
-    height: 60%;
+    height: 50%;
     margin: auto 0;
 }
 
