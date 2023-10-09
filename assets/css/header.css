@@ -4,6 +4,9 @@ header {
     padding: 0 20px;
     background-color: #000;
     border-top: 1px solid var(--gold);
+
+    justify-content: space-between;
+    align-items: center;
 }
 
 #header-logo {
@@ -13,4 +16,11 @@ header {
 
 #header-image {
     height: 100%;
+}
+
+#header-navigation {
+    display: flex;
+    color: #fff;
+    text-align: center;
+    gap: 20px;
 }
