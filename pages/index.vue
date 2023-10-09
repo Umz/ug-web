@@ -1,3 +1,4 @@
 <template>
     <h1>Index page</h1>
+    <p>Welcome to the index page.</p>
 </template>
