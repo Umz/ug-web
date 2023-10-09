@@ -1,7 +1,9 @@
 <template>
     <div>
         <Header />
-        <slot />
+        <div id="page-content">
+            <slot />
+        </div>
         <Footer />
     </div>
 </template>

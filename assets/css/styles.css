@@ -7,3 +7,14 @@ html, body {
     padding: 0;
     margin: 0;
 }
+
+/* Site Structure */
+
+#page-content {
+    display: block;
+    min-height: 90vh;
+    margin: 0 auto;
+
+    border-left: 1px solid var(--red);
+    border-right: 1px solid var(--red);
+}
