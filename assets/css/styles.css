@@ -1,0 +1,9 @@
+:root {
+    --gold: #ffa500;
+    --red: #f00;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}

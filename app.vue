@@ -3,7 +3,12 @@
     <head>
       <title>Umz Games : Nuxt Web</title>>
     </head>
-    <Header />
-    <h1>Hello World!</h1>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
+
+<style lang="css">
+  @import url('~/assets/css/styles.css');
+</style>
