@@ -18,3 +18,16 @@ html, body {
     border-left: 1px solid var(--red);
     border-right: 1px solid var(--red);
 }
+
+.contained-content {
+    display: block;
+    width: 80%;
+
+    margin: 0 auto;
+    padding: 20px;
+}
+@media (max-width: 768px) {
+    .contained-content {
+        width: 100%;
+    }
+}

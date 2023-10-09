@@ -1,0 +1,11 @@
+#legal-heading {
+    border-bottom: 3px solid var(--gold);
+    text-align: center;
+}
+
+.divider {
+    display: block;
+    height: 1px;
+    margin: 10px 0;
+    background-color: var(--red);
+}
