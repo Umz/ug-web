@@ -1,29 +1,11 @@
 <template>
 
-    <div class="contained-content">
-
-        <div id="legal-heading">
-            <h1>{{ gameName }}</h1>
-        </div>
-
-        <section id="terms-of-use">
-            <h2>Terms of Use</h2>
-            <div class="legal-content">
-                {{ gameTerms }}
-            </div>
-        </section>
-
-        <div class="divider"></div>
-
-        <section id="privacy">
-            <h2>Privacy Policy</h2>
-            <div class="legal-content">
-                {{ gamePrivacy }}
-            </div>
-        </section>
-
-    </div>
-
+  <LegalContent
+    :game-name="game"
+    :game-terms="terms"
+    :game-privacy="privacy"
+  />
+  
 </template>
 
 <style lang="css">
@@ -31,13 +13,21 @@
 </style>
 
 <script>
+import { LegalContent } from "#components";
+
 export default {
   data() {
     return {
-      gameName: 'Killer Ant Empire / KAE',
-      gameTerms: 'These are the terms for KAE',
-      gamePrivacy: 'This is the privacy for KAE'
+      game: 'Killer Ant Empire',
+      terms: "Loading terms..",
+      privacy: "Loading privacy.."
     }
-  }
+  },
+  setup() {
+    const { data, error } = useFetch(
+      "/json/kae-legal.json"
+    );
+    return { data, error };
+  },
 }
 </script>
