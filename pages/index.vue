@@ -9,6 +9,12 @@
         </div>
     </section>
 
+    <section id="video-bg">
+        <video playsinline autoplay muted loop>
+            <source src="~/assets/video/R369-jump.webm" type="video/webm">
+        </video>
+    </section>
+
 </template>
 
 <style lang="css" scoped>
