@@ -1,0 +1,26 @@
+section {
+    padding: 3% 20px;
+}
+
+.top-flex {
+    display: flex;
+}
+
+h2 {
+    flex: 1;
+    line-height: 1.3;
+    font-size: 56px;
+    font-family: 'Bungee', sans-serif;
+}
+
+.top-image {
+    flex: 1;
+    position: relative;
+    min-height: 480px;
+}
+.top-image img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
