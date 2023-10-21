@@ -19,11 +19,14 @@ header {
 }
 
 #header-navigation {
-    display: flex;
-    color: #fff;
-    text-align: center;
+    display: inline-flex;
+    width: 100%;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 #header-navigation p {
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
