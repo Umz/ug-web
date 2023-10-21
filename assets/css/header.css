@@ -24,3 +24,6 @@ header {
     text-align: center;
     gap: 20px;
 }
+#header-navigation p {
+    font-family: 'Montserrat', sans-serif;
+}
